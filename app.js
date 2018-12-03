@@ -19,3 +19,7 @@ app.get('/:id', (req, res) => {
 app.post('/', (req, res) => {
     queries.createStudent(req.body).then(students => res.send(students[0]))
 })
+
+app.delete('/:id', (req, res) => {
+    queries.deleteStudent(re.params.id).then(res.sendStatus(204))
+})
