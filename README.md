@@ -1,5 +1,7 @@
 # knexDay Backend App
 
+PSQL database seeded with students from G102.
+
 ### Technologies used:
 
 Knex, PSQL, Express
